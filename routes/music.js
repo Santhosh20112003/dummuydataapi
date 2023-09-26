@@ -8,7 +8,7 @@ router.route('/').get((req, res) => {
 });
 
 router.route('/name').get((req, res) => {
-  music.find({}, { title: 1 })
+  music.find({}, { name: 1 })
     .then(musics => res.json(musics))
     .catch(err => res.status(400).json('Error retrieving the titles: ' + err));
 });
