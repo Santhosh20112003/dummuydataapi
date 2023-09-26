@@ -1,180 +1,154 @@
 [
     {  
-      "id":1,
       "name": "Chila Chila",
       "artist": "Vaisagh",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/chilachila.jpg",
       "audio": "/assets/img/songs/chilachila.mp3"
     },
     { 
-      "id":2,
       "name": "Thee Thalapathy",
       "artist": "Silambarasan T R",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/theethalapathy.jpg",
       "audio": "/assets/img/songs/Thee Thalapathy.mp3"
     },
     { 
-      "id":3,
       "name": "Vaa Vaathi",
       "artist": "G V Prakash",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/vaavathi.jpg",
       "audio": "/assets/img/songs/Vaa Vaathi.mp3"
     },
     { 
-      "id":4,
       "name": "Porkanda Singam",
       "artist": "Anirudh Ravichander",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/porkondasingam.jpg",
       "audio": "/assets/img/songs/Porkanda Singam.mp3"
     },
     { 
-      "id":5,
       "name": "DaDa",
       "artist": "Jen Martin",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/dada.jpg",
       "audio": "/assets/img/songs/DADA Song.mp3"
     },
     { 
-      "id":6,
       "name": "Ennai Vittu",
       "artist": "Yuvan Shanker Raja",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/ennaivitu.jpg",
       "audio": "/assets/img/songs/Ennai Vittu.mp3"
     },
     { 
-      "id":7,
       "name": "Vaathi Coming",
       "artist": "Anirudh Ravichander",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/vaathicoming.jpg",
       "audio": "/assets/img/songs/Vaathi Coming.mp3"
     },
     { 
-      "id":8,
       "name": "Ranjithame",
       "artist": "M.M.Manasi",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/ranjithame.jpg",
       "audio": "/assets/img/songs/Ranjithame.mp3"
     },
     { 
-      "id":9,
       "name": "Baby",
       "artist": "Justin Bieber",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/baby.jpg",
       "audio": "/assets/img/songs/baby.mp3"
     },
     { 
-      "id":10,
       "name": "Darshana",
       "artist": "Hasem Abdul Waheb",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/darshana.jpg",
       "audio": "/assets/img/songs/darshana.mp3"
     },
     { 
-      "id":11,
       "name": "Mehabooba",
       "artist": "Ananya Bhat",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/mehabooba.jpg",
       "audio": "/assets/img/songs/Mehabooba.mp3"
     },
     { 
-      "id":12,
       "name": "Malare",
       "artist": "Vijay Yesudas",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/malare.jpg",
       "audio": "/assets/img/songs/malare.mp3"
     },
     { 
-      "id":13,
       "name": "Kudukku",
       "artist": "Shaan Rahman",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/kudukku.jpg",
       "audio": "/assets/img/songs/kudukku.mp3"
     },
     { 
-      "id":14,
       "name": "Vaathil Melle",
       "artist": "Rajesh Murugesan",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/vaathilmelle.jpg",
       "audio": "/assets/img/songs/vaathilmelle.mp3"
     },
     { 
-      "id":15,
       "name": "Dooreyo",
       "artist": "Vishak Nair",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/dooreyo.jpg",
       "audio": "/assets/img/songs/Dooreyo.mp3"
     },
     { 
-      "id":16,
       "name": "Marakavillaye",
       "artist": "Darshan Raval",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/needapadadhani.jpg",
       "audio": "/assets/img/songs/marakavillaye.mp3"
     },
     { 
-      "id":17,
       "name": "Samajavaragamana",
       "artist": "Sid Sriram",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/samajavaragamana.jpg",
       "audio": "/assets/img/songs/Samajavaragamana.mp3"
     },
     { 
-      "id":18,
       "name": "Oo Antava Oo Oo Antava",
       "artist": "Indravathi Cauhan",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/ooantavaooooantava.jpg",
       "audio": "/assets/img/songs/Oo Antava Oo Oo Antava.mp3"
     },
     { 
-      "id":19,
       "name": "Pila Padesaave",
       "artist": "Yuvan Shankar Raja",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/pilapadesaave.jpg",
       "audio": "/assets/img/songs/Pila Padesaave.mp3"
     },
     { 
-      "id":20,
       "name": "Oh Sita Hey Rama",
       "artist": "Vishal Chandrashekhar",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/ohsitaheyrama.jpg",
       "audio": "/assets/img/songs/Oh Sita Hey Rama.mp3"
     },
     { 
-      "id":21,
       "name": "On My Way",
       "artist": "Alan Walker",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/onmyway.jpg",
       "audio": "/assets/img/songs/On My Way.mp3"
     },
     { 
-      "id":22,
       "name": "Thunder",
       "artist": "Imagine Dragons",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/thunder.jpg",
       "audio": "/assets/img/songs/Thunder.mp3"
     },
     { 
-      "id":23,
       "name": "Shape Of You",
       "artist": "Ed Sheeran",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/shapeofyou.jpg",
       "audio": "/assets/img/songs/Shape Of You.mp3"
     },
     { 
-      "id":24,
       "name": "Heat Waves",
       "artist": "Glass Animals",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/heatwaves.jpg",
       "audio": "/assets/img/songs/Heat Waves.mp3"
     },
     { 
-      "id":25,
       "name": "Friends",
       "artist": "Anne Marie",
       "img": "https://ik.imagekit.io/vituepzjm/EESAI/friends.jpg",
       "audio": "/assets/img/songs/Friends.mp3"
     },{ 
-      "id":13,
       "name": "Santhosh Song",
       "artist": "Santhosh",
       "img": "/assets/img/friends.jpg",
