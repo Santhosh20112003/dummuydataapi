@@ -1,21 +1,22 @@
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
-const jokesSchema = new Schema(
+const authSchema = new Schema(
   {
     id: {
       type: Number,
       required: true,
     },
-    type: {
+    email: {
+      type: String,
+      required: true,
+	  unique:true
+    },
+    name: {
       type: String,
       required: true,
     },
-    setup: {
-      type: String,
-      required: true,
-    },
-    punchline: {
+    token: {
       type: String,
       required: true,
     }
@@ -26,10 +27,10 @@ const jokesSchema = new Schema(
   }
 );
 
-const jokes = mongoose.model("jokes", jokesSchema);
+const auth = mongoose.model("auth", authSchema);
 
-jokes.createIndexes().catch((error) => {
+auth.createIndexes().catch((error) => {
   console.error("Error creating indexes:", error);
 });
 
-module.exports = jokes;
+module.exports = auth;

@@ -1,11 +1,18 @@
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
+const ratelimit = require("express-rate-limit");
 require("dotenv").config();
 
 const app = express();
 const port = process.env.PORT || 3000;
 
+const apiratelimiter = ratelimit({
+  windowMs: 1 * 60 * 1000,
+  max:10
+})
+
+app.use(apiratelimiter);
 
 app.use(cors()); 
 app.use(express.json()); 
@@ -28,9 +35,10 @@ mongoose
 
 const ecommerceRouter = require("./routes/ecommerce");
 const musicRouter = require("./routes/music");
-app.use("/ecommerces", ecommerceRouter);
+const jokesRouter = require("./routes/jokes");
+app.use("/ecommerce", ecommerceRouter);
 app.use("/music", musicRouter);
-
+app.use("/jokes",jokesRouter);
 
 
 
