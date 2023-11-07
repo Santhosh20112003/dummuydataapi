@@ -36,10 +36,11 @@ mongoose
 const ecommerceRouter = require("./routes/ecommerce");
 const musicRouter = require("./routes/music");
 const jokesRouter = require("./routes/jokes");
+const authRouter = require("./routes/auth");
 app.use("/ecommerce", ecommerceRouter);
 app.use("/music", musicRouter);
-app.use("/jokes",jokesRouter);
-
+app.use("/jokes",jokesRouter); 
+app.use("/v2/adminworking",authRouter); 
 
 
 app.get("/", (req, res) => {
